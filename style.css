@@ -23,4 +23,52 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 60%;
+  padding: 70px;
+}
+
+.pictures {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+}
+
+.text p {
+  padding: 10px;
+}
+
+img {
+  width: 200px;
+}
+
+.recept {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.popis {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+button {
+  width: 100px;
+  background-color: #FFEFEF;
+  color: grey;
+  border: none;
+  font-size: 10px;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
 }
